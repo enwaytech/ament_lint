@@ -164,7 +164,7 @@ def main(argv=sys.argv[1:]):
                 cmd.append('--extra-arg=' + arg)
 
         def is_gtest_source(file_name):
-            if(file_name == 'gtest_main.cc' or file_name == 'gtest-all.cc'
+            if (file_name == 'gtest_main.cc' or file_name == 'gtest-all.cc'
                or file_name == 'gmock_main.cc' or file_name == 'gmock-all.cc'):
                 return True
             return False
